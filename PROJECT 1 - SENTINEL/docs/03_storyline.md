@@ -23,5 +23,3 @@ This attack highlights the importance of:
 - **Early threat detection** via honeypots.
 - **Automated response** to minimize human intervention.
 
-## **Conclusion**
-The Sentinel Project is a real-world defense system, combining **monitoring, automation, and countermeasures** to detect and mitigate threats in real time.
