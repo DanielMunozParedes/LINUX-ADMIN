@@ -6,6 +6,8 @@ This section provides a high-level diagram of the **Sentinel security system**, 
 ## **Network & System Architecture**
 The system consists of:
 - **Target Server**: The main system under protection.
+- **Attacker**: Kali Linux (External)
+- **Users**: Multiple workstations connecting via SSH
 - **Honeypot**: A decoy environment logging attacker actions.
 - **Security Mechanisms**:
   - **Fail2Ban**: Blocks brute-force attacks.
@@ -14,6 +16,17 @@ The system consists of:
 - **Monitoring & Alerts**:
   - **Telegram Bot**: Sends real-time security alerts.
   - **Log Analysis**: Captures and reports suspicious activity.
+
+
+ 
+
+| Component      | OS             | Role              | IP (Example)  |
+|--------------|---------------|-----------------|--------------|
+| **Attacker** | Kali Linux    | Simulated threat | 192.168.1.100 |
+| **Server**   | Ubuntu Laptop | Target System    | 192.168.1.10  |
+| **Honeypot** | Internal VM   | Decoy trap      | 192.168.1.11  |
+| **Users**    | Various PCs   | Legitimate access | Dynamic       |
+
 
 ## **Diagram**
 The following diagram illustrates the **Sentinel system's architecture** and security layers:
