@@ -80,8 +80,6 @@ This project is part of my **self-taught** learning path in **Linux security and
 
 
 
- **Contact & Contributions**  
-
-💬 **Want to improve Sentinel?** PRs and contributions are welcome!  
+ **Contact**  
 📧 **Have questions?** Open an issue or contact me at **danielmunozparedes@gmail.com**  
 
