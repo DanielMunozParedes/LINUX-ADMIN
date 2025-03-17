@@ -46,7 +46,3 @@ Sentinel is structured around a **realistic attack scenario**, documented in **[
 
 ---
 
-## 🔧 Setting Up Sentinel  
-
-To try out this project, see **[04_environment-setup.md](04_environment-setup.md)** for installation and configuration instructions.  
-
