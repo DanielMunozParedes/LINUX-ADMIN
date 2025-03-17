@@ -1,6 +1,6 @@
 # Sentinel - Linux Security Hardening & Intrusion Detection  
 
-## 📌 Project Overview  
+## Project Overview  
 
 **Sentinel** is a hands-on cybersecurity project designed to **harden Linux servers** against attacks and implement **automated intrusion detection**. The goal is to simulate **real-world security threats** while demonstrating **effective defense mechanisms** that can be applied in enterprise environments.  
 
@@ -8,7 +8,7 @@ This project is part of my **Linux Administration & Security series**, showcasin
 
 ---
 
-## 🚀 Why This Project?  
+## Why This Project?  
 
 🔹 **Linux servers are prime targets** – Attackers constantly scan for misconfigurations, weak SSH credentials, and outdated software.  
 🔹 **Proactive security matters** – Most intrusions go undetected until it's too late. This project demonstrates **automated alerting and mitigation**.  
@@ -16,7 +16,7 @@ This project is part of my **Linux Administration & Security series**, showcasin
 
 ---
 
-## 🛡️ Key Features  
+## Key Features  
 
 ✅ **Automated Hardening** – Secure SSH configurations, firewall rules, and Fail2Ban policies  
 ✅ **Intrusion Detection** – Real-time log monitoring to detect suspicious activity  
@@ -26,7 +26,7 @@ This project is part of my **Linux Administration & Security series**, showcasin
 
 ---
 
-## 🔥 Realistic Attack & Defense Simulation  
+## Realistic Attack & Defense Simulation  
 
 Sentinel is structured around a **realistic attack scenario**, documented in **[02_storyline.md](02_storyline.md)**. It follows an attacker's **attempted breach**, the security system's **response**, and how logs & automation detect the intrusion.  
 
