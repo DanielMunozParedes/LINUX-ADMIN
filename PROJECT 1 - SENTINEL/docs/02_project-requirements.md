@@ -55,17 +55,3 @@ Sentinel was developed to **automate and enhance security** through:
 📌 **Collect attacker intelligence** using honeypots.  
 📌 **Provide a scalable security framework** for future improvements.  
 
-For an in-depth **attack simulation scenario**, refer to:  
-📄 **[03_storyline.md](03_storyline.md)** – Attack strategy & Sentinel’s defense response.  
-
-For configuration details, see:  
-📄 **[04_configuration-guide.md](04_configuration-guide.md)** – How to set up and customize Sentinel.  
-
----
-
-## 🚀 Next Steps  
-
-🔹 **Want to install Sentinel?** Follow **[Installation Guide](03_installation-setup.md)**.  
-🔹 **Curious about attack detection?** Check **[Log Analysis](06_log-analysis.md)**.  
-
----
