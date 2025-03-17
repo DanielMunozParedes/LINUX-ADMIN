@@ -28,7 +28,7 @@ This project is part of my **Linux Administration & Security series**, showcasin
 
 ## Realistic Attack & Defense Simulation  
 
-Sentinel is structured around a **realistic attack scenario**, documented in **[02_storyline.md](02_storyline.md)**. It follows an attacker's **attempted breach**, the security system's **response**, and how logs & automation detect the intrusion.  
+Sentinel is structured around a **realistic attack scenario**, documented in **[03_storyline.md](03_storyline.md)**. It follows an attacker's **attempted breach**, the security system's **response**, and how logs & automation detect the intrusion.  
 
 **Attack Scenario:**  
 🛑 Brute-force SSH attack → Triggering Fail2Ban  
