@@ -2,7 +2,7 @@
 
 # Sentinel - Linux Security & Monitoring Automation Script
 # Created by: Daniel Muñoz Paredes
-# Version: 0.1
+# Version: 0.1 - Unstable, need to fix If run twice, it overwrites Loki & Grafana settings.
 
 LOG_FILE="/var/log/sentinel.log"
 INSTALL_FLAG="/etc/sentinel_installed"
