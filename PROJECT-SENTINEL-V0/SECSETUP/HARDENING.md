@@ -64,7 +64,7 @@ sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 ```
 
 inside that file check the line "PermitRootLogin" is set to "no". Root can only be acces in the server. also we need to only allow the users that going to access, this practice reinforce the security of this protocol, and lastly we change the
-port of the service in which is listened. why? we need to deceive and the attackers always know that ssh is listeng 22/tcp, but we can change it, besides this will work because the honeypot section will take advantage of this
+port of the service in which is listened. why? we need to deceive and the attackers always know that ssh is listeng 22/tcp, but we can change it, besides this will work because the honeypot section will take advantage of this.
 
 ```bash
 PermitRootLogin no  
@@ -72,5 +72,34 @@ AllowUsers user1 user2
 port 2222  
 ```
 
+notify the firewall that we changed the port and we are lsitening in 2222/tcp, restart the service ssh and cheack the status if everithing is ok.
 
+```bash
+sudo ufw allow 2222/tcp
+sudo systemctl restart ssh
+sudo systemctl status ssh
+```
+
+ ## **4- User management**  
+The only thing that is worth to take note here is that we need to create an admin user lite, still powerful but limited, so we need to change its group to have sudo privileges but not root priviliges
  
+we need a backup of the config ssh file, it is a good practice
+```bash
+sudo adduser admin-lite
+sudo usermod -aG sudo admin-lite
+```
+
+ ## **5- Firewall**
+ Enable the firewall ,check and based on the services you have like PostgreSql you need to deny those to not be consumed by attackers.
+ 
+```bash
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw deny 5432 #postgresql
+```
+
+also we can and need to configurate the firewall to allow only from certain ips we know. This ips are the users that are going to use ssh or any other service
+```bash
+sudo ufw allow from 127.0.0.1 to any port 5432 #if we are LAN and need some service to be consumed
+sudo ufw allow from userip to any port 5432  
+```
