@@ -2,7 +2,7 @@
 
 # Sentinel - Linux Security & Monitoring Automation Script
 # Created by: Daniel Muñoz Paredes
-# Version: Final Stable
+# Version: 0.1
 
 LOG_FILE="/var/log/sentinel.log"
 INSTALL_FLAG="/etc/sentinel_installed"
