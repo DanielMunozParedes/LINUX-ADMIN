@@ -25,7 +25,7 @@
 
 | **Sentinel Monitoring Dashboard** | **Telegram Alert Example** |
 |----------------------------------|---------------------------|
-| ![Monitoring](screenshots/monitoring_dashboard.png) | ![Alert](screenshots/alert_example.png) |
+| TBA | TBA |
 
 ---
 
