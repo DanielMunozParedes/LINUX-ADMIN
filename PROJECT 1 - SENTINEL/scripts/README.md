@@ -1,7 +1,7 @@
 # Sentinel - Linux Security & Monitoring Automation Script  
 
 ## Overview  
-Sentinel is a **Bash automation script** designed to enhance **server security** by configuring **firewall rules, Fail2Ban, Loki, and Grafana**, while also providing optional **Discord notifications**.  This is subject to change and is a unstable version so be aware when cloning this repo.
+Sentinel is a **Bash automation script** designed to enhance **server security** by configuring **firewall rules, Fail2Ban, Loki, and Grafana**, while also providing optional **Discord notifications**.  This is subject to change and is aN unstable version so be aware when cloning this repo.
 
 ## Features  
 - **Automated Security Hardening**: Updates system, installs security tools (Fail2Ban, UFW).  
