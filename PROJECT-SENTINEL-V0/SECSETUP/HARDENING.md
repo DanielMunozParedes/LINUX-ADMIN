@@ -93,6 +93,7 @@ sudo usermod -aG sudo admin-lite
  Enable the firewall ,check and based on the services you have like PostgreSql you need to deny those to not be consumed by attackers.
  
 ```bash
+sudo ufw enable
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw deny 5432 #postgresql
@@ -103,3 +104,22 @@ also we can and need to configurate the firewall to allow only from certain ips 
 sudo ufw allow from 127.0.0.1 to any port 5432 #if we are LAN and need some service to be consumed
 sudo ufw allow from userip to any port 5432  
 ```
+ ## **6- Fail2ban**
+defense against brute force attacks and ban ips. Install,enable and create a jail for the config ban ip section
+```bash
+sudo apt install fail2ban
+sudo systemctl enable fail2ban
+sudo fail2ban -client status
+sudo nano /etc/fail2ban/jail.local
+```
+we add this configuration params and we save and restart the service
+```bash
+[sshd]
+ enabled = true
+ bantime = 3600 #seconds banned
+ maxretry = 3 #max loggin attemps tries
+
+
+sudo systemctl restart fail2ban
+```
+ 
