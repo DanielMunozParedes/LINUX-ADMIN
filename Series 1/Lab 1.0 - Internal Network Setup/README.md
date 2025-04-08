@@ -15,11 +15,11 @@ Ubuntu server and Linux GUI Machines. We'll need 2 machines (at least for now) o
 
 | Project | Description |
 |---------|-------------|
-| [Virtual box setup](https://github.com/DanielMunozParedes/LINUX-ADMIN/) | General overview, tips and internal network.|
-| [Networking files config and testing ping](https://github.com/daniel/windows-threat-lab) | Networking files configuration for the machines. | 
-| [ssh configuration](https://github.com/daniel/offensive-recon-lab) | configuration in each machine if needed for the ssh.  |
-| [ssh permissions configuration](https://github.com/daniel/privilege-escalation-lab) | configuration and testing to assing permissions of connection ssh| 
-| [Troubleshooting](https://github.com/daniel/blog-site) | Problems and solutions you might encounter during the realization of this lab| 
+| [Virtual box setup](https://github.com/DanielMunozParedes/LINUX-ADMIN/blob/main/Series%201/Lab%201.0%20-%20Internal%20Network%20Setup/README.md#virtual-box-setup) | General overview, tips and internal network.|
+| [Networking files config and testing ping](https://github.com/DanielMunozParedes/LINUX-ADMIN/blob/main/Series%201/Lab%201.0%20-%20Internal%20Network%20Setup/README.md#networking-files-config-and-testing-ping) | Networking files configuration for the machines. | 
+| [ssh configuration](https://github.com/DanielMunozParedes/LINUX-ADMIN/blob/main/Series%201/Lab%201.0%20-%20Internal%20Network%20Setup/README.md#ssh-config) | configuration in each machine if needed for the ssh.  |
+| [ssh permissions configuration](https://github.com/DanielMunozParedes/LINUX-ADMIN/blob/main/Series%201/Lab%201.0%20-%20Internal%20Network%20Setup/README.md#ssh-permissions-configuration) | configuration and testing to assing permissions of connection ssh| 
+| [Troubleshooting](https://github.com/DanielMunozParedes/LINUX-ADMIN/blob/main/Series%201/Lab%201.0%20-%20Internal%20Network%20Setup/README.md#troubleshooting) | Problems and solutions you might encounter during the realization of this lab| 
 
 
 
