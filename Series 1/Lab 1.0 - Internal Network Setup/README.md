@@ -19,13 +19,8 @@ Ubuntu server and Linux GUI Machines. We'll need 2 machines (at least for now) o
 | [Networking files config and testing ping](https://github.com/daniel/windows-threat-lab) | Networking files configuration for the machines. | 
 | [ssh configuration](https://github.com/daniel/offensive-recon-lab) | configuration in each machine if needed for the ssh.  |
 | [ssh permissions configuration](https://github.com/daniel/privilege-escalation-lab) | configuration and testing to assing permissions of connection ssh| 
-| [Pentesting](https://github.com/daniel/python-alert-simulator) | (coming soon) | 
-| [writeups-ctfs](https://github.com/daniel/writeups-ctfs) | Writeups and reflections from Bandit, picoCTF, and other CTF platforms. | 
 | [Troubleshooting](https://github.com/daniel/blog-site) | Problems and solutions you might encounter during the realization of this lab| 
 
-
-
-## NOTES: I will provide conmfig files for the networking configuration in folders so you can copy and paste.
 
 
 
